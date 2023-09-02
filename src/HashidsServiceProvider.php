@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Hashids;
+namespace Creaminds\Hashids;
 
 use Hashids\Hashids;
 use Illuminate\Contracts\Container\Container;

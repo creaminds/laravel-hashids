@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Hashids\Facades;
+namespace Creaminds\Hashids\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
