@@ -36,6 +36,6 @@ class HashidsFactory
 
     protected function getClient(array $config): Hashids
     {
-        return new Hashids($config['salt'], $config['length'], $config['alphabet']);
+        return new Hashids($config['salt'], (int) $config['length'], $config['alphabet']);
     }
 }
